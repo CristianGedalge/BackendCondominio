@@ -55,6 +55,7 @@ SECRET_KEY = config('SECRET_KEY', default='django-insecure-change-this-in-produc
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = [
+    'backendcondominio-production.up.railway.app',
     'localhost',
     '127.0.0.1',
     '192.168.0.7',  # ← IP actual de la máquina (Wi-Fi)
